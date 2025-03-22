@@ -1,0 +1,60 @@
+v 4
+file "E:\SLP\TUDO\" "topo.vhd" "89fb5e34ba2eea30b55f866b3c4c802dc2d54683" "20240813062030.668":
+  entity sistema_top at 1( 0) + 0 on 521;
+  architecture behavior of sistema_top at 21( 741) + 0 on 522;
+file "E:\SLP\TUDO\" "package.vhd" "2994afc6763ca0e54dfaa9537280ae7eeeca5d14" "20240813062030.667":
+  package meu_sistema_pkg at 1( 0) + 0 on 520;
+file "E:\SLP\TUDO\" "divisor_freq_2.vhd" "b2cae87e4c768a70a724d1dea5038aa50643c864" "20240813060704.049":
+  entity freq_div_240hz at 1( 0) + 0 on 509;
+  architecture behavior of freq_div_240hz at 13( 259) + 0 on 510;
+file "E:\SLP\TUDO\" "debounce.vhd" "6c77f2ab69955f1dfc4fb6cee7c727ac9fa7c07c" "20240813060704.047":
+  entity debounce at 26( 1231) + 0 on 505;
+  architecture logic of debounce at 40( 1711) + 0 on 506;
+file "E:\SLP\TUDO\" "7_segmentos.vhd" "e4e4193e7a6fdfc0840413fb1fa0acfa8b4abafa" "20240813060704.043":
+  entity controlador_display at 1( 0) + 0 on 495;
+  architecture behavior of controlador_display at 13( 404) + 0 on 496;
+file "E:\SLP\TUDO\" "contador_bin_tb.vhd" "6ab20b2327e34d01b99e8acced86df267233a3ab" "20240813052807.719":
+  entity tb_contador_binario at 1( 0) + 0 on 400;
+  architecture behavior of tb_contador_binario at 8( 120) + 0 on 401;
+file "E:\SLP\TUDO\" "contador_binario.vhd" "83af7765334a324a2e0e7334f7894805c77812d3" "20240813060704.045":
+  entity contador_binario at 1( 0) + 0 on 499;
+  architecture behavior of contador_binario at 14( 466) + 0 on 500;
+file "E:\SLP\TUDO\" "mux_tb.vhd" "c5a524835af79761fde6b7a3e0466d6b03556d2a" "20240813011354.815":
+  entity tb_mux_selecao at 1( 0) + 0 on 221;
+  architecture behavior of tb_mux_selecao at 8( 115) + 0 on 222;
+file "E:\SLP\TUDO\" "mux.vhd" "b2e74673418c42131dfa19c209cd4fa5c85bb7bc" "20240813060704.050":
+  entity mux_selecao at 1( 0) + 0 on 511;
+  architecture comportamento of mux_selecao at 28( 1085) + 0 on 512;
+file "E:\SLP\TUDO\" "comparador_tb.vhd" "54a6393f5c179dc52f018c9e26c69c678f700e5d" "20240813004257.528":
+  entity tb_comparador at 1( 0) + 0 on 205;
+  architecture behavior of tb_comparador at 8( 114) + 0 on 206;
+file "E:\SLP\TUDO\" "comparador.vhd" "76d21774889cf2ab72b73c711ffa0fcfdba21ecd" "20240813060704.044":
+  entity comparador at 1( 0) + 0 on 497;
+  architecture simples of comparador at 24( 938) + 0 on 498;
+file "E:\SLP\TUDO\" "contador_relogio_tb.vhd" "dce448c878f3f180d6291b4e6216befedddb17c1" "20240813001917.858":
+  entity tb_contador_bcd at 1( 0) + 0 on 197;
+  architecture behavior of tb_contador_bcd at 8( 116) + 0 on 198;
+file "E:\SLP\TUDO\" "contador_relogio.vhd" "a8b2d3ef505c6798d1ed9ab0a60dc36b49e0f0c4" "20240813060704.046":
+  entity contador_bcd at 1( 0) + 0 on 501;
+  architecture simples of contador_bcd at 21( 1156) + 0 on 502;
+file "E:\SLP\TUDO\" "registrador_alarme.vhd" "573946f4c7c33c16ca33a501c2807d802a55c061" "20240813060704.050":
+  entity registrador_alarme at 1( 0) + 0 on 513;
+  architecture simples of registrador_alarme at 20( 1085) + 0 on 514;
+file "E:\SLP\TUDO\" "registrador_tb.vhd" "55b763b425f703b003a66b27fef18e16524c5e40" "20240813001236.814":
+  entity tb_registrador at 1( 0) + 0 on 189;
+  architecture behavior of tb_registrador at 8( 115) + 0 on 190;
+file "E:\SLP\TUDO\" "controle_alarme.vhd" "ac1563ad7eac425b4889bbc965b4446749ca5a2a" "20240813060704.047":
+  entity controle_alarme at 1( 0) + 0 on 503;
+  architecture behavior of controle_alarme at 17( 414) + 0 on 504;
+file "E:\SLP\TUDO\" "controle_alarme_tb.vhd" "1989e89716bc434b341bef63feb6c3ae3b0f4146" "20240813042737.057":
+  entity tb_controle_alarme at 1( 0) + 0 on 285;
+  architecture behavior of tb_controle_alarme at 8( 119) + 0 on 286;
+file "E:\SLP\TUDO\" "divisor_freq.vhd" "4b61bc2a0bd2e64379659797758cdfb411ce6cdd" "20240813060704.048":
+  entity freq_div_1hz at 1( 0) + 0 on 507;
+  architecture behavior of freq_div_1hz at 13( 257) + 0 on 508;
+file "E:\SLP\TUDO\" "topo_tb.vhd" "352a03257f2554dc2f6cb3e982f956fe5036fd61" "20240813062030.675":
+  entity tb_sistema_top at 1( 0) + 0 on 523;
+  architecture behavior of tb_sistema_top at 8( 130) + 0 on 524;
+file "E:\SLP\TUDO\" "divisor_freq_tb.vhd" "e0de2b60664dc0025b9f033082ee2651e8ca9a00" "20240813053757.284":
+  entity tb_freq_div_1hz at 1( 0) + 0 on 412;
+  architecture behavior of tb_freq_div_1hz at 8( 116) + 0 on 413;
