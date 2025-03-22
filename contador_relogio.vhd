@@ -71,7 +71,7 @@ begin
         end if;
     end process;
 
-    -- Combinational logic to reset to 00:00 if 23:59 is reached
+    
     reset_to_zero <= '1' when (unidade_hora_int = 3 and dezena_hora_int = 2 and unidade_minuto_int = 9 and dezena_minuto_int = 5) else '0';
 
     -- Processo de contagem de minutos
